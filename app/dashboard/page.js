@@ -9,7 +9,7 @@ export default function DashboardPage() {
     }
     if (!session) {
         if (typeof window !== 'undefined') {
-            window.location.href = "/api/auth/signin";
+            window.location.href = "/signin";
         }
         return null;
     }

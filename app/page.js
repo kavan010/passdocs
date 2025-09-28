@@ -24,7 +24,7 @@ export default function Home() {
                     <Link href="../api/auth/signup">
                         <button className="ml-4 px-4 py-2 bg-blue-500 text-white rounded-2xl hover:bg-blue-600 transition-all duration-200">Sign Up</button>
                     </Link>
-                    <Link href="../api/auth/signin">
+                    <Link href="/signin">
                         <button className="ml-4 px-4 py-2 bg-blue-500 text-white rounded-2xl hover:bg-blue-600 transition-all duration-200">Sign In</button>
                     </Link>
                 </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import SignInGoogle from '@/components/sign-in';
 
-export default function Auth() {
+export default function SignInPage() {
 
 
     return (
@@ -16,7 +16,7 @@ export default function Auth() {
                 
                 <SignInGoogle />
 
-                <p className="text-sm text-gray-500">Don't have an account? <a href="/auth/signup" className="text-blue-500 hover:underline">Sign Up</a></p>
+                <p className="text-sm text-gray-500">Dont have an account? <a href="/auth/signup" className="text-blue-500 hover:underline">Sign Up</a></p>
             </div>
         </div>
     );
