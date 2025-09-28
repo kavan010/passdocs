@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
-import SignInGoogle from '@/components/SignInGoogle';
+import SignInGoogle from '@/components/sign-in';
 
 export default function Auth() {
 
