@@ -14,9 +14,9 @@ export default function DashboardPage() {
         return null;
     }
     return (
-        <div className="pt-20">
+        <div className="pt-20 flex justify-center items-center">
             <Navbar />
-            <div className="bg-gray-300 flex flex-col justify-center items-center mt-50">
+            <div className="w-3xl h-auto bg-gray-200 flex flex-col justify-center items-center mt-50">
                 <h1 className="text-2xl font-bold text-center">Welcome to your Dashboard, {session.user.name}</h1>
             </div>
         </div>

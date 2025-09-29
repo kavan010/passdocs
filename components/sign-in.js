@@ -16,7 +16,7 @@ export default function AuthButton() {
 
   return (
     <button 
-    onClick={() => signIn("google", { callbackUrl: "/" })}
+    onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
     className="w-64 px-4 py-2 bg-gray-100 text-black rounded-4xl hover:bg-gray-200 transition-all duration-200"
     >
         <Image src="/google.png" alt="Google Logo" width={20} height={20} className="inline-block mr-2 mb-0.5"/> 
