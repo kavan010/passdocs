@@ -15,7 +15,7 @@ export default function Home() {
                 <div id="shadowcase" className="flex flex-col space-y-4 w-3xl h-50 mt-4 p-4 bg-gradient-to-t from-gray-0 to-gray-50 rounded-2xl shadow-lg text-gray-500">
                     <PassDoc refr="/gmail.png" service="gmail" doc1="kavangill75@gmail.com" doc2="SGKisTheGoat"/>
                     <PassDoc refr="/paypal.png" service="paypal" doc1="kavangill15@gmail.com" doc2="ChaiIsGay"/>
-                    <PassDoc refr="/netflix.png" service="netflix" doc1="kavangill0517@gmail.com" doc2="SVKisTheGoat"/>
+                <PassDoc refr="/netflix.png" service="netflix" doc1="kavangill0517@gmail.com" doc2="SVKisTheGoat"/>
                     <PassDoc refr="/amazon.png" service="amazon" doc1="kavan010@gmail.com" doc2="SVKisTheGoat"/>
                     
                 </div>
