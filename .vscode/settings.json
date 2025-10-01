@@ -34,19 +34,8 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
-        "**/.DS_Store": true,
-        ".vscode/": true,
-        "package.json": true,
-        "eslint.config.mjs": true,
-        ".gitignore": true,
-        "node_modules/": true,
-        "jsconfig.json": true,
-        "README.md": true,
-        "postcss.config.mjs": true,
-        "package-lock.json": true,
-        "next.config.mjs": true,
-        ".next/": true
+        "**/.DS_Store": true
     },
-    "hidefiles.selectedProfile": "Default"
+    "hidefiles.selectedProfile": "Show All Files"
 
 }
