@@ -15,19 +15,17 @@ export const authOptions = {
       try {
         const db = await getDb();
         const users = db.collection("users");
-
         const existing = await users.findOne({ email: user.email });
         if (!existing) {
           await users.insertOne({ name: user.name, email: user.email });
         }
-
         console.log("User saved:", user.email);
         return true;
       } catch (err) {
         console.error("DB error in signIn:", err);
-        return true; // stops sign-in if DB fails
+        return false; // <-- change this from true to false
       }
-    },
+    }
   },
 };
 
