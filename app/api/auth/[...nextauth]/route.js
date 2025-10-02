@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { getDb } from "@/lib/mongodb";
