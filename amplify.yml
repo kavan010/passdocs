@@ -5,6 +5,11 @@ applications:
       phases:
         preBuild:
           commands:
+            - export NEXTAUTH_URL=https://passdocs.kavang.com
+            - export NEXTAUTH_SECRET=<your-secret>
+            - export GOOGLE_CLIENT_ID=<your-client-id>
+            - export GOOGLE_CLIENT_SECRET=<your-google-client-secret>
+            - export MONGODB_URI=<your-atlas-uri>
             - npm ci
         build:
           commands:
